@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Gotham A';
+    src: url(../font/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham B';
+    src: url(../font/GothamBold.ttf)
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url(../font/GothamBook.ttf)
+}
+
+main{
+    background:#EFEDE1;
+}
+.my-2 input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    margin-right:0;
+}
+
+.padd{
+    padding-left:1.3125rem;
+    padding-right:1.3125rem;
+    padding-bottom:3.125rem;
+    padding-top:3.125rem;
+    max-width:61.375rem;
+    margin:0 auto; 
+    position:relative;
+}
+
+.no-padd{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.card1 {
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: "Gotham A", sans-serif;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width:100%;
+    margin-bottom:2rem;
+    
+}
+
+.Card1-image{
+    padding:0;
+}
+
+.Card2-image{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.Card-subtitle {
+    color: #00714a;
+    font-size: 0.8625em;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.Card-title {
+    color: #454545;
+    font-size: 1.525em;
+    margin-top:0.75rem;
+    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+.padding-styling{
+    padding:22px;
+}
+
+.Card-text {
+    color: #454545;
+    font-size: 0.9375em;
+    line-height: 1.4;
+    margin-bottom: 0;
+    font-weight:400;
+    font-family:Verdana;
+    line-height:1.45rem;
+}
+
+.cardAtag:hover{
+    text-decoration:none; 
+}
+
+.BoxyPad1{
+    padding-left:0 !important;
+    padding-right:30px;
+}
+.BoxyPad2{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+.BoxyPad3{
+    padding-left:30px;
+    padding-right:0 !important;
+}
+
+.cardAtag:hover  h3.Card-title{
+    color: #00714a;
+}
+
+.my-2 button {
+    float: right;
+    padding: 6px 10px;
+    margin:0 10 0 0;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.Card2, .Card3, .Card4 {
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: "Gotham A", sans-serif;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width:100%;
+    margin-bottom:2rem; 
+    padding:0;
+}
+
+.Card3{
+    margin-left:0px;
+}
+
+.Card4{
+    margin-left:00px;
+}
+
+.my-2 button:hover {
+    background: #ccc;
+}
+
+.io-gradient-aqua{
+    background-image: radial-gradient(at 100% 130%, #B4EC51, #53A0FD, #3023AE) !important;
+}
+
+#hero-row{
+    color:white;
+    padding-top:20px;
+}
+
+#hero-container{
+    width: 95%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-bottom:100px;
+}
+
+.hero-subheader {
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 28px;
+}
+
+.hero-subheader2 {
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.5s;
+}
+
+a.get-me:hover{
+    color:#ddda02;
+    border: solid 2px #ddda02;
+    background-color:#aa0b36;
+}
+
+.get-me {
+    padding: 12px 45px;
+    font-size: 15px;
+    border-radius: 0px;
+    color: #fff;
+    background: #E52054;
+    border: 2px solid white;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.50);
+}
+
+.button-get-me {
+    background-color: #E52054;
+    color: #fff;
+    border: 2px solid #E52054;
+}
+
+.donate {
+    padding: 12px 45px;
+    font-size: 15px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+a.donate:hover{
+    color:#ddda02;
+    border: solid 2px #ddda02;
+}
+
+.button-donate {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
