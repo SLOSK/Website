@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: 'Gotham A';
     src: url(font/GothamMedium.ttf);
@@ -5,269 +6,36 @@
 
 @font-face {
     font-family: 'Gotham B';
-    src: url(font/GothamBold.ttf)
+    src: url(font/GothamBold.ttf);
 }
 
 @font-face {
     font-family: 'Gotham-Book';
-    src: url(font/GothamBook.ttf)
+    src: url(font/GothamBook.ttf);
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url(font/Montserrat-Regular.ttf)
+    src: url(font/Montserrat-Regular.ttf);
 }
 
 @font-face{
     font-family: 'KC';
-    src: url(font/KeepCalm-Medium.ttf)
+    src: url(font/KeepCalm-Medium.ttf);
 }
 
+/* End Fonts */
 
+/* All page */
 main{
     background:#EFEDE1;
 }
 
-.navbar-rounding{
-    border-radius:0;
-    margin-bottom:0;
+
+.align-center{
+    text-align:center !important;
 }
 
-.btn{
-    border-radius:5px !important;
-}
-
-.close{
-    margin-left:0 !important;
-}
-
-.my-2 input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-    margin-right:0;
-}
-
-.padd{
-    padding-left:1.3125rem;
-    padding-right:1.3125rem;
-    padding-bottom:3.125rem;
-    padding-top:3.125rem;
-    max-width:61.375rem;
-    margin:0 auto; 
-    position:relative;
-}
-
-.tricky-place{
-    margin:0 auto;
-    position:relative;
-    left:20px;
-}
-
-.no-padd{
-    padding:0 !important;
-    margin:0 !important;
-}
-
-.card1 {
-    border: solid 1px #dddddd;
-    background-color: #ffffff;
-    border-radius: 6px;
-    font-family: "Gotham A", sans-serif;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-    width:100%;
-    margin-bottom:2rem;
-    
-}
-
-.Card1-image{
-    padding:0;
-}
-
-.Card2-image{
-    padding:0 !important;
-    margin:0 !important;
-}
-
-.Card-subtitle {
-    color: #00714a;
-    font-size: 0.8625em;
-    font-weight: bolder;
-    margin-bottom: 5px;
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-}
-.Card-title {
-    color: #454545;
-    font-size: 1.525em;
-    margin-top:0.75rem;
-    margin-bottom: 12px;
-    margin-bottom: 0.75rem;
-    font-weight: bold;
-}
-
-.padding-styling{
-    padding:22px;
-}
-
-.Card-text {
-    color: #454545;
-    font-size: 0.9375em;
-    line-height: 1.4;
-    margin-bottom: 0;
-    font-weight:400;
-    font-family:'Montserrat';
-    line-height:1.45rem;
-}
-
-.cardAtag:hover{
-    text-decoration:none; 
-}
-
-.BoxyPad1{
-    padding-left:0 !important;
-    padding-right:30px;
-}
-.BoxyPad2{
-    padding-left:0 !important;
-    padding-right:0 !important;
-}
-.BoxyPad3{
-    padding-left:30px;
-    padding-right:0 !important;
-}
-
-.cardAtag:hover  h3.Card-title{
-    color: #00714a;
-}
-
-.my-2 button {
-    float: right;
-    padding: 6px 10px;
-    margin:0 10 0 0;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-
-.Card2, .Card3, .Card4 {
-    border: solid 1px #dddddd;
-    background-color: #ffffff;
-    border-radius: 6px;
-    font-family: "Montserrat", sans-serif;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-    width:100%;
-    margin-bottom:2rem; 
-    padding:0;
-}
-
-.Card3{
-    margin-left:0px;
-}
-
-.Card4{
-    margin-left:00px;
-}
-
-.my-2 button:hover {
-    background: #ccc;
-}
-
-.io-gradient-aqua{
-    background-image: radial-gradient(at 100% 130%, #a0caff, #53A0FD, #3023AE) !important;
-}
-
-#hero-row{
-    color:white;
-    padding-top:20px;
-}
-
-#hero-container{
-    width: 95%;
-    max-width: 1350px;
-    margin: 0 auto;
-    padding-bottom:75px;
-}
-
-.hero-subheader {
-    font-weight: normal;
-    line-height: 30px;
-    font-size: 26px;
-    color:#fff;
-    margin:25px 0 35px;
-    font-family:"Montserrat";
-}
-
-#teaching:link, #teaching:visited{
-    color:inherit;
-    text-decoration:underline;
-}
-#teaching:hover, #teaching:active{
-    color:#ffea14;
-}
-
-.hero-subheader2 {
-    font-weight: normal;
-    line-height: 22px;
-    font-size: 22px;
-    color:#fff;
-    font-family:"Montserrat";
-}
-.hero-subheader3{
-    font-weight: 500;
-    line-height:22px;
-    font-size:17px;
-    color:#ddda02;
-    font-family:"Montserrat";
-    margin-bottom:1rem;
-}
-
-.box-layout{
-    padding:50px;
-}
-
-#card1{
-    width:100%;
-    border-radius:5px;
-    border:solid 1px grey;
-    overflow:hidden;
-    transition: all 2.5s;
-}
-
-.wrong-color{
-    background:#f2dede;
-    border: solid 1px #ebccd1 !important;
-}
-
-.right-color{
-    background:#dff0d8 !important;
-    border: solid 1px #d6e9c6 !important;
-}
-
-.image{
-    height:200px;
-    padding:4px;
-}
-
-.content-box{
-    padding:0 20px;
-}
-
-.rotate{
-    -webkit-transition: all 3s linear;
-    transition: all 3s linear;
-}
-
-.rotate.up {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
 
 .btn {
     display: inline-block;
@@ -282,94 +50,25 @@ main{
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    border-radius: 0;
+    border-radius:5px !important;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     transition: all 0.5s;
 }
+/* End All page */
 
-
-a.get-me:hover{
-    color:#fff;
-    border: solid 2px #ddda02;
+/* NavBar */
+.navbar-brand{
+    padding:0 2rem 0 1rem;
+    margin:none !important;
+    color:#115181 !important;
 }
 
-#col-button{
-    border-radius:5px;
-    /*background: #6399dd;*/
-    background: #39A1E7;
-    padding:5px 25px;
-    border:none;
-    box-shadow:2px 2px 10px rgba(0,0,0,0.3);
-    cursor:pointer;
-    transition: all 1s;
-    font-size:1.05rem;
-}
-
-.display-none{
-    display:none;
-}
-
-#click-display{
-    cursor:pointer;
-}
-
-.get-me {
-    padding: 12px 45px;
-    font-size: 15px;
-    border-radius: 0px;
-    background: #E52054;
-    border: 2px solid white;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.50);
-}
-
-.button-get-me {
-    background-color: #E52054;
-    color: #fff;
-    border: 2px solid #E52054;
-    font-size:1.125rem;
-    font-weight:500;
-
-}
-
-.hidden{
-    display:none;
-}
-
-#or-email{
-    font-weight:600;
-    font-family:"Gotham A", sans-serif;
-    font-size:0.90rem;
-}
-
-
-.donate {
-    padding: 12px 45px;
-    font-size: 15px;
-    border-radius: 0px;
-    color: #fff;
-    background-color: transparent;
-    border: 2px solid white;
-}
-
-.btn-donate{
-    background-color:rgba(0,0,0,0) !important;
-    border:solid 1px #ddda02 !important;
-    color:#ddda02;
-    margin-right:15px; 
-    transition: all 0.3s;
-    font-weight:500;
-    padding: 7px 18px !important;
-}
-.btn-donate:hover{
-    background-color:#ddda02 !important;
-    color:#563d7c;
-}
 .btn-login{
-    background-color: #4b70bc!important;
-    border:solid 1px #4b70bc !important;
+    background-color: #115181!important;
+    border:solid 2px #115181 !important;
     color:#fff;
     margin-right:15px; 
     transition: all 0.3s;
@@ -377,55 +76,30 @@ a.get-me:hover{
     padding: 7px 18px !important;
 }
 
-.btn-sign{
-    display:block;
-    width:75%;
-    padding:10px 10px 10px 15px;
-    margin:0.375rem auto;
+.nav-item {
+    padding:0 10px;
+}
+
+.nav-item.active{
+    background:#ddd;
     border-radius:5px;
-    color:#fff;
-    border:none;
-    text-shadow:0 1px black;
-    box-shadow:2px 2px 10px rgba(0,0,0,0.5);
-    cursor:pointer;
-    font-family:"Gotham A", sans-serif;
-    font-size:0.95rem;
 }
 
-.pull-left{
-    float:left !important;
+.my-2 button {
+    float: right;
+    padding: 6px 10px;
+    margin:0 10 0 0;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
-.fb-sign{
-    background-color:#4C6BA4;
-}
-.gg-sign{
-    background-color:#dd4d41;
-}
-.lk-sign{
-    background-color:#0076b4;
-}
+/* End NavBar */
 
-.modal-color{
-    background-color:#efede1 !important;
-    text-align:center !important;
-}
+/* Sign Up Modal */
 
-.icon-size{
-    font-size:1.25rem;
-}
-
-.btn-login:hover{
-    background-color: #6489d6 !important;
-    border:solid 1px #0b2c70 !important;
-}
-
-.align-center{
-    text-align:center !important;
-}
-
-.modal-hr{
-    margin-top:1.25rem;
-    margin-bottom:0;
+.close{
+    margin-left:0 !important;
 }
 
 a.no-style{
@@ -434,6 +108,12 @@ a.no-style{
     font-size:0.8rem;
     color:#818387;
     cursor:help;
+}
+
+.tricky-place {
+    margin:0 auto;
+    position: relative;
+    left:20px;
 }
 
 .modal-body{
@@ -482,7 +162,7 @@ p#privacy{
 }
 
 .btn-sign-up{
-    border:solid 2px 0d9138;
+    border:solid 2px #0d9138;
     background:#0bc649;
     color:#fff;
     font-weight:500;
@@ -493,6 +173,183 @@ p#privacy{
 .btn-sign-up:hover{
     background:#098431;
     box-shadow:4px 4px 5px gba(0,0,0,0.5)
+}
+
+#click-display{
+    cursor:pointer;
+}
+
+.hidden{
+    display:none;
+}
+
+#or-email{
+    font-weight:600;
+    font-family:"Gotham A", sans-serif;
+    font-size:0.90rem;
+}
+.btn-sign{
+    display:block;
+    width:75%;
+    padding:10px 10px 10px 15px;
+    margin:0.375rem auto;
+    border-radius:5px;
+    color:#fff;
+    border:none;
+    text-shadow:0 1px black;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.5);
+    cursor:pointer;
+    font-family:"Gotham A", sans-serif;
+    font-size:0.95rem;
+}
+
+.pull-left{
+    float:left !important;
+}
+.fb-sign{
+    background-color:#4C6BA4;
+}
+.gg-sign{
+    background-color:#dd4d41;
+}
+.lk-sign{
+    background-color:#0076b4;
+}
+
+.modal-color{
+    background-color:#efede1 !important;
+    text-align:center !important;
+}
+
+.icon-size{
+    font-size:1.25rem;
+}
+
+.btn-login:hover{
+    background-color: #53A0FD !important;
+    border:solid 2px #53A0FD !important;
+}
+/* End Sign Up Modal */
+
+/* Second Section */
+
+.padd{
+    padding-left:1.3125rem;
+    padding-right:1.3125rem;
+    padding-bottom:3.125rem;
+    padding-top:3.125rem;
+    max-width:61.375rem;
+    margin:0 auto; 
+    position:relative;
+}
+
+.no-padd{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.card1 {
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: "Gotham A", sans-serif;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width:100%;
+    margin-bottom:2rem;
+    
+}
+
+.Card1-image{
+    padding:0;
+}
+
+.Card2-image{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.Card-subtitle {
+    color: #115181;
+    font-size: 0.95em;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.Card-title {
+    color: #454545;
+    font-size: 1.525em;
+    margin-top:0.75rem;
+    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+.padding-styling{
+    padding:22px;
+}
+
+.Card-text {
+    color: #454545;
+    font-size: 0.9375em;
+    line-height: 1.4;
+    margin-bottom: 0;
+    font-weight:400;
+    font-family:'Montserrat';
+    line-height:1.45rem;
+}
+
+.cardAtag:hover{
+    text-decoration:none; 
+}
+
+.BoxyPad1{
+    padding-left:0 !important;
+    padding-right:30px;
+}
+.BoxyPad2{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+.BoxyPad3{
+    padding-left:30px;
+    padding-right:0 !important;
+}
+
+.cardAtag:hover  h3.Card-title{
+    color: #115181;
+}
+
+.Card2, .Card3, .Card4 {
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width:100%;
+    margin-bottom:2rem; 
+    padding:0;
+}
+
+.Card3{
+    margin-left:0px;
+}
+
+.Card4{
+    margin-left:00px;
+}
+
+/* End Second Section */
+
+/* First Section */
+
+.io-gradient-aqua{
+    background-image: radial-gradient(at 100% 130%, #a0caff, #53A0FD, #3023AE) !important;
 }
 
 a.donate:hover{
@@ -508,3 +365,165 @@ a.donate:hover{
     font-size:1.125rem;
     font-weight:500;
 }
+
+.get-me {
+    padding: 12px 45px;
+    font-size: 15px;
+    border-radius: 0px;
+    background: #E52054;
+    border: 2px solid white;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.50);
+}
+
+.button-get-me {
+    background-color: #E52054;
+    color: #fff;
+    border: 2px solid #E52054;
+    font-size:1.125rem;
+    font-weight:500;
+}
+
+#hero-row{
+    color:white;
+    padding:5px;
+    background:#115181;
+
+}
+
+a.get-me:hover{
+    color:#fff;
+    border: solid 2px #ddda02;
+}
+
+#hero-container{
+    width: 95%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-bottom:75px;
+}
+
+.hero-subheader {
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 26px;
+    color:#fff;
+    margin:25px 0 35px;
+    font-family:"Montserrat";
+}
+
+#teaching:link, #teaching:visited{
+    color:inherit;
+    text-decoration:underline;
+}
+#teaching:hover, #teaching:active{
+    color:#ffea14;
+}
+
+.hero-subheader2 {
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 1.55rem;
+    color:#fff;
+    font-family:"Garamond";
+}
+.hero-subheader3{
+    font-weight: 500;
+    line-height:22px;
+    font-size:1.23rem;
+    color:#f7d602;
+    font-family:"Montserrat";
+    margin-bottom:1rem;
+    width:120%;
+    position:relative;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.7);
+    z-index:5;
+}
+.donate {
+    padding: 12px 45px;
+    font-size: 15px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn-donate{
+    background-color:rgba(0,0,0,0) !important;
+    border:solid 2px #28A745 !important;
+    color:#28A745;
+    margin-right:15px; 
+    transition: all 0.3s;
+    font-weight:500;
+    padding: 7px 18px !important;
+}
+.btn-donate:hover{
+    background-color:#28A745 !important;
+    color:#fff;
+}
+
+/* End First Section */
+
+/* Educational program Section */
+
+#card1, #card2{
+    width:100%;
+    border-radius:5px;
+    border:solid 1px grey;
+    overflow:hidden;
+    transition: all 2.5s;
+}
+
+#card2{
+    height:-webkit-calc(100% - 45px);
+    height:calc(100%- 45px);
+}
+
+.readMore{
+    color:#0c4499;
+    text-decoration:underline;
+}
+
+.readMoreBox {
+    text-align:center;
+    background:linear-gradient(rgba(140,145,148,0), rgba(140, 145, 148,0.5));
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:120%;
+    position:relative;
+    right:20px;
+    height:2rem;
+    bottom:30px;
+    
+}
+
+.wrong-color{
+    background:#f2dede;
+    border: solid 1px #ebccd1 !important;
+}
+
+.right-color{
+    background:#dff0d8 !important;
+    border: solid 1px #d6e9c6 !important;
+}
+
+.image{
+    height:200px;
+    padding:4px;
+}
+
+.content-box{
+    padding:0 20px;
+}
+
+#col-button{
+    border-radius:5px;
+    /*background: #6399dd;*/
+    background: #39A1E7;
+    padding:5px 25px;
+    border:none;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+    transition: all 1s;
+    font-size:1.05rem;
+}
+
