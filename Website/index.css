@@ -306,17 +306,32 @@ p#privacy{
     text-decoration:none; 
 }
 
-.BoxyPad1{
+#BoxyPad1{
     padding-left:0 !important;
     padding-right:30px;
 }
-.BoxyPad2{
+#BoxyPad2{
     padding-left:0 !important;
     padding-right:0 !important;
 }
-.BoxyPad3{
+#BoxyPad3{
     padding-left:30px;
     padding-right:0 !important;
+}
+
+.anywhere{
+    margin-top:10px !important;
+    color: #197a4d;
+    font-size: 1.0625rem;
+    font-weight:600;
+}
+
+.myCard:hover .anywhere{
+    text-decoration:underline;
+}
+
+.myCard:hover {
+    box-shadow:5px 5px 10px rgba(17, 81, 129, 0.2), -5px -5px 10px rgba(17, 81, 129, 0.2), 5px -5px 10px rgba(17, 81, 129, 0.2), -5px 5px 10px rgba(17, 81, 129, 0.2);
 }
 
 .cardAtag:hover  h3.Card-title{
@@ -387,7 +402,6 @@ a.donate:hover{
     color:white;
     padding:5px;
     background:#115181;
-
 }
 
 a.get-me:hover{
@@ -422,9 +436,9 @@ a.get-me:hover{
 .hero-subheader2 {
     font-weight: normal;
     line-height: 22px;
-    font-size: 1.55rem;
+    font-size: 1.65rem;
     color:#fff;
-    font-family:"Garamond";
+    font-family:"garamond";
 }
 .hero-subheader3{
     font-weight: 500;
